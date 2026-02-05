@@ -1,0 +1,8 @@
+{
+  "name": "sitechienmaud",
+  "version": "1.0.0",
+  "description": "Site simple pour garde de chiens",
+  "scripts": {
+    "start": "open index.html"
+  }
+}
