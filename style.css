@@ -842,7 +842,9 @@ ul {
     background-color: var(--white);
     border-radius: var(--border-radius);
     border-left: 4px solid var(--secondary-color);
+     border-right: 4px solid var(--secondary-color);
 }
+
 
 .contact-message em {
     color: var(--medium-gray);
@@ -910,6 +912,7 @@ ul {
     background-color: #fff8e6;
     border-radius: var(--border-radius);
     border-left: 4px solid #ff9800;
+    border-right: 4px solid #ff9800;
 }
 
 .info-cle-icon {
