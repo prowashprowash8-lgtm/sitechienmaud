@@ -842,9 +842,7 @@ ul {
     background-color: var(--white);
     border-radius: var(--border-radius);
     border-left: 4px solid var(--secondary-color);
-     border-right: 4px solid var(--secondary-color);
 }
-
 
 .contact-message em {
     color: var(--medium-gray);
@@ -912,7 +910,6 @@ ul {
     background-color: #fff8e6;
     border-radius: var(--border-radius);
     border-left: 4px solid #ff9800;
-    border-right: 4px solid #ff9800;
 }
 
 .info-cle-icon {
@@ -1017,13 +1014,42 @@ ul {
         font-size: 2rem;
     }
     
+    .header {
+        padding: var(--spacing-sm) 0;
+    }
+    
     .header-content {
         flex-direction: column;
         text-align: center;
+        gap: var(--spacing-sm);
     }
     
     .logo-section {
-        flex-direction: column;
+        flex-direction: row;
+        gap: var(--spacing-xs);
+    }
+    
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .header-text h1 {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+    
+    .tagline {
+        font-size: 0.75rem;
+    }
+    
+    .header-contact .phone-link {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .header-contact .icon {
+        font-size: 1rem;
     }
     
     .hero-content {
