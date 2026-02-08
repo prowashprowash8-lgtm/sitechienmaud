@@ -1,0 +1,43 @@
+/* ============================================
+   STYLE POUR LES ICÔNES FONT AWESOME
+   ============================================ */
+
+/* Taille des icônes dans les avantages */
+.avantage-icon i {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+/* Taille des icônes dans les modalités */
+.modalite-icon i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+/* Taille des icônes dans les garanties */
+.garantie-icon i {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+/* Taille des icônes de contact */
+.contact-icon i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* Icône d'information importante */
+.info-cle-icon i {
+    font-size: 2rem;
+    color: #ff9800;
+}
+
+/* Icônes pour Pet Sitter à Domicile */
+.icon-home-pet i {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+}
+
+.icon-home-pet i:first-child {
+    margin-right: 0.25rem;
+}
